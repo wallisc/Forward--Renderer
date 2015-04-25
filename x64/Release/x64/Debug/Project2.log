@@ -1,0 +1,20 @@
+﻿Build started 7/7/2014 7:41:37 PM.
+     1>Project "C:\Users\Chris\Documents\Visual Studio 2012\Projects\Renderer\Project2\Project2.vcxproj" on node 2 (Build target(s)).
+     1>FxCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\fxc.exe /nologo /E"main" /T ps_5_0 /Fo "C:\Users\Chris\Documents\Visual Studio 2012\Projects\Renderer\x64\Debug\PlainPixel.cso" /Od /Zi PlainPixel.hlsl 
+     1>C:\Users\Chris\Documents\Visual Studio 2012\Projects\Renderer\Project2\PlainPixel.hlsl(78,20-77): warning X3206: 'phong': implicit truncation of vector type
+     1>C:\Users\Chris\Documents\Visual Studio 2012\Projects\Renderer\Project2\PlainPixel.hlsl(109,34-112): warning X3206: 'phong': implicit truncation of vector type
+     1>C:\Users\Chris\Documents\Visual Studio 2012\Projects\Renderer\Project2\PlainPixel.hlsl(138,22-79): warning X3206: 'phong': implicit truncation of vector type
+         
+         compilation object save succeeded; see C:\Users\Chris\Documents\Visual Studio 2012\Projects\Renderer\x64\Debug\PlainPixel.cso
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\fxc.exe /nologo /E"main" /T ps_5_0 /Fo "C:\Users\Chris\Documents\Visual Studio 2012\Projects\Renderer\x64\Debug\GIPixel.cso" /Od /Zi GIPixel.hlsl 
+     1>C:\Users\Chris\Documents\Visual Studio 2012\Projects\Renderer\Project2\GIPixel.hlsl(70,13-19): warning X3078: 'xSample': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used
+         
+         compilation object save succeeded; see C:\Users\Chris\Documents\Visual Studio 2012\Projects\Renderer\x64\Debug\GIPixel.cso
+       Link:
+         Project2.vcxproj -> C:\Users\Chris\Documents\Visual Studio 2012\Projects\Renderer\x64\Debug\DirectX.exe
+     1>Done Building Project "C:\Users\Chris\Documents\Visual Studio 2012\Projects\Renderer\Project2\Project2.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.12
