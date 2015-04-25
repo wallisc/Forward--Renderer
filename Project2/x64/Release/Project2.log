@@ -1,0 +1,31 @@
+﻿Build started 4/22/2015 7:40:47 PM.
+     1>Project "C:\Users\Chris\Documents\Visual Studio 2012\Projects\Renderer\Project2\Project2.vcxproj" on node 2 (Build target(s)).
+     1>PreBuildEvent:
+         xcopy /Y /F "C:\Users\Chris\Documents\Visual Studio 2012\Projects\Renderer\Project2\*.hlsl"  "C:\Users\Chris\Documents\Visual Studio 2012\Projects\Renderer\x64\Release\."
+         xcopy /Y /F  "C:\Users\Chris\Documents\Visual Studio 2012\Projects\Renderer\Project2\SharedDefines.h"  "C:\Users\Chris\Documents\Visual Studio 2012\Projects\Renderer\x64\Release\."
+         xcopy /Y /F  "C:\Users\Chris\Documents\Visual Studio 2012\Projects\Renderer\Project2\ShaderDefines.h"  "C:\Users\Chris\Documents\Visual Studio 2012\Projects\Renderer\x64\Release\."
+         :VCEnd
+         C:\Users\Chris\Documents\Visual Studio 2012\Projects\Renderer\Project2\BlendPS.hlsl -> C:\Users\Chris\Documents\Visual Studio 2012\Projects\Renderer\x64\Release\BlendPS.hlsl
+         C:\Users\Chris\Documents\Visual Studio 2012\Projects\Renderer\Project2\BloomPS.hlsl -> C:\Users\Chris\Documents\Visual Studio 2012\Projects\Renderer\x64\Release\BloomPS.hlsl
+         C:\Users\Chris\Documents\Visual Studio 2012\Projects\Renderer\Project2\BlurCS.hlsl -> C:\Users\Chris\Documents\Visual Studio 2012\Projects\Renderer\x64\Release\BlurCS.hlsl
+         C:\Users\Chris\Documents\Visual Studio 2012\Projects\Renderer\Project2\LightCullingCS.hlsl -> C:\Users\Chris\Documents\Visual Studio 2012\Projects\Renderer\x64\Release\LightCullingCS.hlsl
+         C:\Users\Chris\Documents\Visual Studio 2012\Projects\Renderer\Project2\LightGeneratorCS.hlsl -> C:\Users\Chris\Documents\Visual Studio 2012\Projects\Renderer\x64\Release\LightGeneratorCS.hlsl
+         C:\Users\Chris\Documents\Visual Studio 2012\Projects\Renderer\Project2\PlainPixel.hlsl -> C:\Users\Chris\Documents\Visual Studio 2012\Projects\Renderer\x64\Release\PlainPixel.hlsl
+         C:\Users\Chris\Documents\Visual Studio 2012\Projects\Renderer\Project2\PlainVert.hlsl -> C:\Users\Chris\Documents\Visual Studio 2012\Projects\Renderer\x64\Release\PlainVert.hlsl
+         C:\Users\Chris\Documents\Visual Studio 2012\Projects\Renderer\Project2\PlaneVertexShader.hlsl -> C:\Users\Chris\Documents\Visual Studio 2012\Projects\Renderer\x64\Release\PlaneVertexShader.hlsl
+         C:\Users\Chris\Documents\Visual Studio 2012\Projects\Renderer\Project2\PlaneVertexShader2.hlsl -> C:\Users\Chris\Documents\Visual Studio 2012\Projects\Renderer\x64\Release\PlaneVertexShader2.hlsl
+         C:\Users\Chris\Documents\Visual Studio 2012\Projects\Renderer\Project2\PrePassPS.hlsl -> C:\Users\Chris\Documents\Visual Studio 2012\Projects\Renderer\x64\Release\PrePassPS.hlsl
+         C:\Users\Chris\Documents\Visual Studio 2012\Projects\Renderer\Project2\ReflectionPS.hlsl -> C:\Users\Chris\Documents\Visual Studio 2012\Projects\Renderer\x64\Release\ReflectionPS.hlsl
+         C:\Users\Chris\Documents\Visual Studio 2012\Projects\Renderer\Project2\TextureShader.hlsl -> C:\Users\Chris\Documents\Visual Studio 2012\Projects\Renderer\x64\Release\TextureShader.hlsl
+         12 File(s) copied
+         C:\Users\Chris\Documents\Visual Studio 2012\Projects\Renderer\Project2\SharedDefines.h -> C:\Users\Chris\Documents\Visual Studio 2012\Projects\Renderer\x64\Release\SharedDefines.h
+         1 File(s) copied
+         C:\Users\Chris\Documents\Visual Studio 2012\Projects\Renderer\Project2\ShaderDefines.h -> C:\Users\Chris\Documents\Visual Studio 2012\Projects\Renderer\x64\Release\ShaderDefines.h
+         1 File(s) copied
+       Link:
+         Project2.vcxproj -> C:\Users\Chris\Documents\Visual Studio 2012\Projects\Renderer\x64\Release\DirectX.exe
+     1>Done Building Project "C:\Users\Chris\Documents\Visual Studio 2012\Projects\Renderer\Project2\Project2.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.09

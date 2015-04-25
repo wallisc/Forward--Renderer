@@ -1,0 +1,36 @@
+﻿Build started 1/14/2015 10:07:31 PM.
+     1>Project "C:\Users\Chris\Documents\Visual Studio 2012\Projects\Renderer\Project2\Project2.vcxproj" on node 2 (Build target(s)).
+     1>PreBuildEvent:
+         xcopy /Y /F "C:\Users\Chris\Documents\Visual Studio 2012\Projects\Renderer\Project2\*.hlsl"  "C:\Users\Chris\Documents\Visual Studio 2012\Projects\Renderer\x64\Debug\."
+         xcopy /Y /F  "C:\Users\Chris\Documents\Visual Studio 2012\Projects\Renderer\Project2\SharedDefines.h"  "C:\Users\Chris\Documents\Visual Studio 2012\Projects\Renderer\x64\Debug\."
+         xcopy /Y /F  "C:\Users\Chris\Documents\Visual Studio 2012\Projects\Renderer\Project2\ShaderDefines.h"  "C:\Users\Chris\Documents\Visual Studio 2012\Projects\Renderer\x64\Debug\."
+         :VCEnd
+         C:\Users\Chris\Documents\Visual Studio 2012\Projects\Renderer\Project2\BlendPS.hlsl -> C:\Users\Chris\Documents\Visual Studio 2012\Projects\Renderer\x64\Debug\BlendPS.hlsl
+         C:\Users\Chris\Documents\Visual Studio 2012\Projects\Renderer\Project2\BloomPS.hlsl -> C:\Users\Chris\Documents\Visual Studio 2012\Projects\Renderer\x64\Debug\BloomPS.hlsl
+         C:\Users\Chris\Documents\Visual Studio 2012\Projects\Renderer\Project2\BlurCS.hlsl -> C:\Users\Chris\Documents\Visual Studio 2012\Projects\Renderer\x64\Debug\BlurCS.hlsl
+         C:\Users\Chris\Documents\Visual Studio 2012\Projects\Renderer\Project2\LightCullingCS.hlsl -> C:\Users\Chris\Documents\Visual Studio 2012\Projects\Renderer\x64\Debug\LightCullingCS.hlsl
+         C:\Users\Chris\Documents\Visual Studio 2012\Projects\Renderer\Project2\LightGeneratorCS.hlsl -> C:\Users\Chris\Documents\Visual Studio 2012\Projects\Renderer\x64\Debug\LightGeneratorCS.hlsl
+         C:\Users\Chris\Documents\Visual Studio 2012\Projects\Renderer\Project2\PlainPixel.hlsl -> C:\Users\Chris\Documents\Visual Studio 2012\Projects\Renderer\x64\Debug\PlainPixel.hlsl
+         C:\Users\Chris\Documents\Visual Studio 2012\Projects\Renderer\Project2\PlainVert.hlsl -> C:\Users\Chris\Documents\Visual Studio 2012\Projects\Renderer\x64\Debug\PlainVert.hlsl
+         C:\Users\Chris\Documents\Visual Studio 2012\Projects\Renderer\Project2\PlaneVertexShader.hlsl -> C:\Users\Chris\Documents\Visual Studio 2012\Projects\Renderer\x64\Debug\PlaneVertexShader.hlsl
+         C:\Users\Chris\Documents\Visual Studio 2012\Projects\Renderer\Project2\PlaneVertexShader2.hlsl -> C:\Users\Chris\Documents\Visual Studio 2012\Projects\Renderer\x64\Debug\PlaneVertexShader2.hlsl
+         C:\Users\Chris\Documents\Visual Studio 2012\Projects\Renderer\Project2\PrePassPS.hlsl -> C:\Users\Chris\Documents\Visual Studio 2012\Projects\Renderer\x64\Debug\PrePassPS.hlsl
+         C:\Users\Chris\Documents\Visual Studio 2012\Projects\Renderer\Project2\ReflectionPS.hlsl -> C:\Users\Chris\Documents\Visual Studio 2012\Projects\Renderer\x64\Debug\ReflectionPS.hlsl
+         C:\Users\Chris\Documents\Visual Studio 2012\Projects\Renderer\Project2\TextureShader.hlsl -> C:\Users\Chris\Documents\Visual Studio 2012\Projects\Renderer\x64\Debug\TextureShader.hlsl
+         12 File(s) copied
+         C:\Users\Chris\Documents\Visual Studio 2012\Projects\Renderer\Project2\SharedDefines.h -> C:\Users\Chris\Documents\Visual Studio 2012\Projects\Renderer\x64\Debug\SharedDefines.h
+         1 File(s) copied
+         C:\Users\Chris\Documents\Visual Studio 2012\Projects\Renderer\Project2\ShaderDefines.h -> C:\Users\Chris\Documents\Visual Studio 2012\Projects\Renderer\x64\Debug\ShaderDefines.h
+         1 File(s) copied
+       FxCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\fxc.exe /nologo /E"main" /T ps_5_0 /Fo "C:\Users\Chris\Documents\Visual Studio 2012\Projects\Renderer\x64\Debug\PrePassPS.cso" /Od /Zi PrePassPS.hlsl 
+     1>C:\Users\Chris\Documents\Visual Studio 2012\Projects\Renderer\Project2\PrePassPS.hlsl(49,22-60): warning X3576: semantics in type overridden by variable/function or enclosing type
+         
+         compilation object save succeeded; see C:\Users\Chris\Documents\Visual Studio 2012\Projects\Renderer\x64\Debug\PrePassPS.cso
+       Link:
+         Project2.vcxproj -> C:\Users\Chris\Documents\Visual Studio 2012\Projects\Renderer\x64\Debug\DirectX.exe
+     1>Done Building Project "C:\Users\Chris\Documents\Visual Studio 2012\Projects\Renderer\Project2\Project2.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.11
